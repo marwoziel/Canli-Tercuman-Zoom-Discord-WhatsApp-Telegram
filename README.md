@@ -1,10 +1,13 @@
 # Canlı Tercüman — Zoom, Discord, WhatsApp, Telegram
 
+> **İNDİRMELER ASKIYA ALINDI — 1 Kasım 2026:** 1.1.0 kurulum dosyasında Microsoft dahil birden fazla antivirüs motorunun uyarısı bildirildi. Neden henüz doğrulanmadı; güvenlik incelemesi tamamlanana kadar tüm kurulum sürümleri yayından kaldırıldı. Daha önce indirdiğin EXE’yi çalıştırma; antivirüsü kapatma veya istisna ekleme. İşlev testleri güvenlik doğrulaması değildir.
+
+
 **Türkçe konuş. İngilizce duyulsun. İstersen yanıtı otopilota bırak.**
 
 Windows için iki yönlü canlı konuşma asistanı. Türkçe söylediklerini İngilizce seslendirir; İngilizce konuşmaları Türkçeye çevirir ve yanıt önerir. Otopilot açıkken kendi CV ve kurallarına göre İngilizce yanıtı otomatik seslendirir.
 
-[**Windows kurulumunu indir**](https://github.com/marwoziel/Canli-Tercuman-Zoom-Discord-WhatsApp-Telegram/releases/latest/download/CanliTercuman-Setup-1.1.1.exe) · [Sürümler](https://github.com/marwoziel/Canli-Tercuman-Zoom-Discord-WhatsApp-Telegram/releases)
+**Windows indirmesi güvenlik incelemesi süresince kapalıdır.** · [Sürümler](https://github.com/marwoziel/Canli-Tercuman-Zoom-Discord-WhatsApp-Telegram/releases)
 
 ## Kurulum
 
