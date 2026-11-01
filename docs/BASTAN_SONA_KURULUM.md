@@ -2,7 +2,17 @@
 
 ## 1 — Canlı Tercüman'ı kur
 
-GitHub Releases bölümünden **CanliTercuman-Setup-1.0.0.exe** indir ve çalıştır. Windows 10/11 x64 içindir. Python veya terminal gerektirmez. Başlat menüsü ve masaüstü kısayolu oluşur.
+GitHub Releases bölümünden **CanliTercuman-Setup-1.1.0.exe** indir ve çalıştır. Windows 10/11 x64 içindir. Python veya terminal gerektirmez. Başlat menüsü ve masaüstü kısayolu oluşur.
+
+## İlk açılış sihirbazı
+
+Dört adım vardır: **Gereksinimler → API ve Ses → Cihazlar ve Bilgilerin → Son Kontrol**. Eksikler programın içinde görünür. Program bileşenleri paketlidir; Python, pip, NumPy veya Qt'yi ayrıca indirmezsin. Yapay zekâ modelleri API üzerinden çalışır; GPU/model dosyası indirmen gerekmez.
+
+**VB-Cable indir ve kurulumu aç** resmî paketi indirip üreticinin x64 kurulumunu Windows yönetici onayıyla açar. Kurulum ekranını tamamla. Yeniden başlatma istenirse uygula; aksi halde **Gereksinimleri tekrar kontrol et** veya **uygulamayı yeniden aç** düğmesini kullan. İndirilmiş olması, sürücünün kurulu olduğu anlamına gelmez.
+
+**API ve Ses** adımında Doğrula, üç anahtarı ve o Voice ID ile ses üretimini sınar. Hatalı bilgi diske kaydedilip sonraki açılışta çökmeye neden olmaz. Alanı değiştirirsen tekrar doğrulaman gerekir. Küçük API testinin kullanım bedeli olabilir. Eski bir kurulumda da **Kurulum / API Kontrolü** düğmesinden bu akış açılır.
+
+Cihaz adımında mikrofon testi yalnızca yereldir; dosya kaydı oluşturmaz veya göndermez. Ses örneği yalnızca seçtiğin fiziksel dinleme çıkışında çalar. Testin oynatılmış olması duyduğunu garanti etmez; sonucu dinleyip kontrol et.
 
 ## 2 — Sanal mikrofon: VB-Cable
 

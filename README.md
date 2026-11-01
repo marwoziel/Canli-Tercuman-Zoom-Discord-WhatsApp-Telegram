@@ -4,21 +4,23 @@
 
 Windows için iki yönlü canlı konuşma asistanı. Türkçe söylediklerini İngilizce seslendirir; İngilizce konuşmaları Türkçeye çevirir ve yanıt önerir. Otopilot açıkken kendi CV ve kurallarına göre İngilizce yanıtı otomatik seslendirir.
 
-[**Windows kurulumunu indir**](https://github.com/marwoziel/Canli-Tercuman-Zoom-Discord-WhatsApp-Telegram/releases/latest/download/CanliTercuman-Setup-1.0.0.exe) · [Sürümler](https://github.com/marwoziel/Canli-Tercuman-Zoom-Discord-WhatsApp-Telegram/releases)
+[**Windows kurulumunu indir**](https://github.com/marwoziel/Canli-Tercuman-Zoom-Discord-WhatsApp-Telegram/releases/latest/download/CanliTercuman-Setup-1.1.0.exe) · [Sürümler](https://github.com/marwoziel/Canli-Tercuman-Zoom-Discord-WhatsApp-Telegram/releases)
 
 ## Kurulum
 
-1. Bu deponun **Releases** bölümünden `CanliTercuman-Setup-1.0.0.exe` dosyasını indir.
-2. Kurulum dosyasını çalıştır. Python veya terminal gerekmez; kullanıcı hesabına kurulur.
-3. İlk açılışta **kendi** Deepgram, Groq, ElevenLabs API anahtarlarını ve ElevenLabs Voice ID değerini gir.
-4. Karşı tarafa ses göndermek için [resmî VB-Cable sürücüsünü](https://vb-audio.com/Cable/) kur; gerekiyorsa Windows'u yeniden başlat.
-5. Görüşme uygulamasının mikrofonunu **CABLE Output**, Canlı Tercüman'daki dinleme cihazını fiziksel kulaklığın olarak seç.
+1. **CanliTercuman-Setup-1.1.0.exe** dosyasını indir ve çalıştır. Python ve gerekli kütüphaneler dahildir; CMD/pip kullanmazsın.
+2. İlk açılış sihirbazı gerekli cihazları ve VB-Cable'ı kontrol eder. Eksikse **VB-Cable indir ve kurulumu aç** düğmesine bas; Windows yönetici onayını verip üreticinin adımlarını tamamla. Gerekirse yeniden başlat.
+3. **API ve Ses** adımında kendi anahtarlarını ve Voice ID değerini gir, **Doğrula** düğmesine bas. Program üç servise ve seçtiğin sese erişimi sınar; sorunlu alanı belirtir.
+4. **Cihazlar ve Bilgilerin** adımında mikrofon/kulaklığı seç; yerel mikrofon, test tonu ve kendi sesinin örneğini deneyebilirsin. Kendi CV ve kuralların isteğe bağlıdır.
+5. Görüşme uygulamasının mikrofonunu **CABLE Output** seç. **Son Kontrol** adımını tamamlayıp programı aç.
 
-**Tek tık kurulum uygulama içindir.** API hesapları, ses kimliği ve ses sürücüsünün ilk kurulumu ayrıca gerekir. VB-Cable sürücüsü pakete gömülü değildir ve uygulama tarafından sessizce kurulmaz.
+Doğrulama kullanıcı tarafından uygulamanın içinden yapılır. Kısa API testi kullanımına yansıyabilir; mikrofon kaydı buluta veya görüşmeye gönderilmez. VB-Cable üçüncü taraf sürücüsüdür: resmî sunucudan indirilir, yönetici onayı ve yeniden başlatma gerekebilir; sessizce kurulmuş gibi gösterilmez.
 
 ![İlk açılış — alanlar boş başlar](assets/ilk-acilis.png)
 
 **Yeni başlayanlar:** [Sanal mikrofon dahil baştan sona kurulum](docs/BASTAN_SONA_KURULUM.md) · [API anahtarı alma bağlantıları](docs/API_ANAHTARLARI.md)
+
+![API doğrulama adımı — bilgiler boş başlar](assets/api-dogrulama.png)
 
 ## İki mod
 

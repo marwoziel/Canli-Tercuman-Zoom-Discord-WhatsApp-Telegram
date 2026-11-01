@@ -6,11 +6,11 @@ Windows 10/11, 64 bit işlemci, internet, mikrofon ve tercihen kulaklık gerekir
 
 ## 2. Kurulum ve ilk açılış
 
-GitHub Releases içindeki `CanliTercuman-Setup-1.0.0.exe` dosyasını çalıştır. Başlat menüsüne ve masaüstüne Canlı Tercüman kısayolu eklenir. Program yalnızca kendi kullanıcı hesabına kurulur.
+GitHub Releases içindeki `CanliTercuman-Setup-1.1.0.exe` dosyasını çalıştır. Başlat menüsüne ve masaüstüne Canlı Tercüman kısayolu eklenir. Program yalnızca kendi kullanıcı hesabına kurulur.
 
 Windows yayımlayan kişiyi doğrulayamadığını belirtirse dosyanın resmî depo bağlantısını ve yayımlanan SHA-256 değerini kontrol et. Paket henüz bir kod imzalama sertifikası taşımaz; güvenlik yazılımını devre dışı bırakman gerekmez.
 
-İlk pencerede üç API anahtarını ve ElevenLabs Voice ID değerini gir. Alanlar boş başlar. Kaydettiğinde anahtarlar Windows kullanıcı hesabına bağlı biçimde korunur. Sonradan ana ekrandaki **API Ayarları** ile değiştirebilirsin.
+İlk pencerede üç API anahtarını ve ElevenLabs Voice ID değerini gir. Alanlar boş başlar. Sihirbazdaki Doğrula düğmesi servis erişimini test eder. Son adımda kurulumu bitirdiğinde anahtarlar Windows kullanıcı hesabına bağlı biçimde korunur. Sonradan ana ekrandaki **Kurulum / API Kontrolü** ile değiştirebilirsin.
 
 Hesap sayfaları: [Deepgram](https://console.deepgram.com/), [Groq](https://console.groq.com/keys), [ElevenLabs](https://elevenlabs.io/app/settings/api-keys). Kendi sesinle konuşmak istiyorsan hesabındaki kendi klon sesinin Voice ID değerini kullan. Uygulama senin adına ses klonlamaz; herhangi bir geliştiricinin sesi pakete dahil edilmez.
 

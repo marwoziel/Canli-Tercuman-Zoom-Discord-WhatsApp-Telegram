@@ -25,6 +25,6 @@ Kullanma hakkın bulunan bir ses seç ve o sesin **Voice ID** değerini ayrı al
 
 ## Uygulamaya girme
 
-İlk açılışta dört alanı doldur ve **Kaydet** düğmesine bas. Sonradan **API Ayarları** ve **Ses Kimliği** düğmelerini kullanabilirsin. Kişisel CV'ni **PDF Yükle**, kurallarını **Kuralları Düzenle** ile ekle.
+İlk açılış sihirbazının **API ve Ses** adımında dört alanı doldur ve **Doğrula** düğmesine bas. Üç servis ve ses başarılı olduğunda Devam açılır; son adımda **Kurulumu bitir ve programı aç** ile kaydedilir. Sonradan **Kurulum / API Kontrolü** ve **Ses Kimliği** düğmelerini kullanabilirsin. Kişisel CV'ni **PDF Yükle**, kurallarını **Kuralları Düzenle** ile ekle.
 
 Anahtarlar Windows kullanıcı hesabına bağlı korumayla yerel saklanır. Anahtarını GitHub'a, Twitter'a, hata bildirimine veya ekran görüntüsüne koyma. Süresi dolan veya kotası biten bir anahtar için sağlayıcı panelini kontrol et. Uygulamanın kurulmuş olması hesap bakiyesi veya API erişimi sağlamaz.
