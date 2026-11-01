@@ -2,7 +2,7 @@
 
 ## 1 — Canlı Tercüman'ı kur
 
-GitHub Releases bölümünden **CanliTercuman-Setup-1.1.0.exe** indir ve çalıştır. Windows 10/11 x64 içindir. Python veya terminal gerektirmez. Başlat menüsü ve masaüstü kısayolu oluşur.
+GitHub Releases bölümünden **CanliTercuman-Setup-1.1.1.exe** indir ve çalıştır. Windows 10/11 x64 içindir. Python veya terminal gerektirmez. Başlat menüsü ve masaüstü kısayolu oluşur.
 
 ## İlk açılış sihirbazı
 

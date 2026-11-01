@@ -6,7 +6,7 @@ Windows 10/11, 64 bit işlemci, internet, mikrofon ve tercihen kulaklık gerekir
 
 ## 2. Kurulum ve ilk açılış
 
-GitHub Releases içindeki `CanliTercuman-Setup-1.1.0.exe` dosyasını çalıştır. Başlat menüsüne ve masaüstüne Canlı Tercüman kısayolu eklenir. Program yalnızca kendi kullanıcı hesabına kurulur.
+GitHub Releases içindeki `CanliTercuman-Setup-1.1.1.exe` dosyasını çalıştır. Başlat menüsüne ve masaüstüne Canlı Tercüman kısayolu eklenir. Program yalnızca kendi kullanıcı hesabına kurulur.
 
 Windows yayımlayan kişiyi doğrulayamadığını belirtirse dosyanın resmî depo bağlantısını ve yayımlanan SHA-256 değerini kontrol et. Paket henüz bir kod imzalama sertifikası taşımaz; güvenlik yazılımını devre dışı bırakman gerekmez.
 

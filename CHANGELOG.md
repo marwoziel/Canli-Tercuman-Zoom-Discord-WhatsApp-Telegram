@@ -1,5 +1,9 @@
 # Sürüm notları
 
+## 1.1.1 — 1 Kasım 2026
+
+İlk kurulumda ilk sanal kablo yerine Windows varsayılan çıkışının WASAPI kaynağı önceliklendirilir. Ana ekrana “Kulaklığa gelen sesi dinle” düğmesi ve gerçek kaynak ses seviyesi eklendi. Kaynak değişiklikleri kaydedilir; cihaz ID değiştiğinde aynı isimle geri yüklenir. 118 otomatik test geçti; G321 kulaklık çıkışından yerel test tonu WASAPI üzerinden yakalanarak doğrulandı.
+
 ## 1.1.0 — 1 Kasım 2026
 
 Geçersiz kayıtlı Voice ID artık açılışta çökme yerine ayar ekranını açar. Voice ID, anahtarlar diske kaydedilmeden önce doğrulanır. Yanlış alana yapıştırılan uzun değer gösterilmez; mevcut API anahtarları korunur. Yapıştırma kaynaklı tırnak ve görünmez işaretler temizlenir. Dört adımlı ilk kurulum sihirbazı, eksik sürücü kontrolü, resmî VB-Cable indirme/kurulumu açma, kullanıcı tarafından API ve ses üretimi doğrulama, yerel mikrofon/kulaklık testi, isteğe bağlı CV/kurallar ve seçilen cihazları kaydetme eklendi. Ses, seçilen çıkış cihazının doğal örnekleme hızına uyarlanır. 115 çevrimdışı test geçti.

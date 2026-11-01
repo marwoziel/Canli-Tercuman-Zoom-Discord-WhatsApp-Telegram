@@ -14,3 +14,10 @@
 | Güncellemede dosya kullanılıyor | Önce çalışan Canlı Tercüman penceresini kapat; kurulum dosyasını tekrar aç. |
 
 Hata bildirirken API anahtarı, CV, konuşma geçmişi veya kişisel veri klasörünü ekleme. Sürüm, Windows sürümü, seçilen cihaz türleri ve anahtarsız hata metni yeterlidir. Her hizmetin API durumunu ve kullanım kotasını kendi panelinden kontrol et.
+
+## Kulaklığa ses geliyor ama program duymuyor
+
+1. Ana ekranda **Kulaklığa gelen sesi dinle** düğmesine bas. Seçilen kulaklığın WASAPI Loopback kaynağı eşleştirilir.
+2. Tarayıcı/toplantı uygulamasının ses çıkışı da aynı kulaklık olmalı. Ses çalarken **Kaynak sesi: ALGILANIYOR** satırını kontrol et.
+3. Elle seçim için **Toplantı sesi** listesinden kulaklığının **[Loopback]** kaynağını seç. CABLE In 16ch ancak toplantı uygulamasının çıkışını özellikle bu sanal kanala yönlendirdiğinde ses taşır.
+4. Aynı kulaklık yakalanırken yerel İngilizce seslendirme süresince kendini tekrar algılamamak için geçici bastırma uygulanır. Kesintisiz ayrı kanal kullanmak istersen ses yönlendirme kılavuzunu izle.
