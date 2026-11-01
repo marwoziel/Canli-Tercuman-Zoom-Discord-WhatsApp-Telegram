@@ -1,0 +1,16 @@
+name: Hata bildirimi
+description: Kişisel veri içermeyen bir hata bildir.
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Uygulama ve Windows sürümü
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Sorun ve tekrar adımları
+      description: API anahtarı, CV, gerçek konuşma veya kişisel dosya ekleme.
+    validations:
+      required: true
