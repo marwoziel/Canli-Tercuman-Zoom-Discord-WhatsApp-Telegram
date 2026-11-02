@@ -7,7 +7,20 @@
 CanliTercuman-Setup-1.1.0.exe  
 SHA256: `fa035d5794ae0277c130a1ca77324e01f402d7d2a5ecd6be9183eaed0acd665a`
 
-Kullanıcının VirusTotal ekran görüntüsünde Microsoft `Trojan:Win32/Wacatac.C!ml` dahil birden fazla tespit var. Ekrandaki dosya hash'i yayımlanan dosyayla eşleşiyor. Yeni bir VirusTotal taraması henüz alınmadı; mevcut tespitler yanlış alarm olarak doğrulanmadı.
+Kullanıcının VirusTotal ekran görüntüsünde Microsoft `Trojan:Win32/Wacatac.C!ml` dahil birden fazla tespit var. Ekrandaki dosya hash'i yayımlanan dosyayla eşleşiyor. Kullanıcı dört dosyanın VirusTotal sonuç ekranlarını paylaştı; aşağıdaki tablo bu ekranlardan kaydedildi. Mevcut tespitler yanlış alarm olarak doğrulanmadı.
+
+## 2 Kasım 2026 güncellemesi: dört dosyanın sonucu
+
+| Dosya | Tespit / değerlendirilen motor | Rapor |
+|---|---|---|
+| 1.1.0 Kurulum | 7/57 | [SHA256 raporu](https://www.virustotal.com/gui/file/fa035d5794ae0277c130a1ca77324e01f402d7d2a5ecd6be9183eaed0acd665a) |
+| 1.1.0 İç uygulama | 3/71 | [SHA256 raporu](https://www.virustotal.com/gui/file/c7a0a79907a2732595e2242147ce9d0dd18a06119a4ecc1f72231576f5813b25) |
+| 1.1.1 Kurulum | 6/70 | [SHA256 raporu](https://www.virustotal.com/gui/file/0659564463610fa29bda1ed6dba4e5f06b61f645b021093232032221baa7fa7f) |
+| 1.1.1 İç uygulama | 3/71 | [SHA256 raporu](https://www.virustotal.com/gui/file/96470a451be90a032b7abdb6a6fd5fd859c91a09d87492c1581920157b7d5a1a) |
+
+İki iç uygulamada da Arctic Wolf (`Unsafe`), SecureAge (`Malicious`) ve Skyhigh (`BehavesLike.Win64.Backdoor.vc`) tespiti görünüyor. Dolayısıyla uyarı sadece kurucuyla sınırlı değil. Bunlar kullanıcı ekranlarından alınan sonuçlardır; API üzerinden tüm davranış raporu okunmadı. Motor sayıları ve analiz zamanları farklıdır; 7'den 6'ya düşüş bir güvenlik düzeltmesinin doğrulandığı anlamına gelmez.
+
+**Yayın kararı:** Tüm EXE sürümleri taslakta kalır. Tespit veren üreticilerin değerlendirmesi ve aynı dosya hash'iyle doğrulama olmadan güvenli sürüm duyurusu yapılmaz.
 
 ## Tamamlanan kontroller
 
@@ -31,7 +44,7 @@ Kesin neden henüz belirlenmedi. İmzasız, ZIP yükü taşıyan özel .NET kuru
 
 ## Açık kalan işlemler
 
-- Orijinal 1.1.0 kurucu ile iç uygulamanın ayrı, güncel çok motorlu taramaları.
+- Tespit veren motorların tam davranış bulguları ve üretici inceleme kararları. Dört EXE için kullanıcı tarafından paylaşılan tespit sonuçları yukarıdadır.
 - Microsoft ve tespit veren üreticilerin dosya/ilgili davranış incelemesi.
 - Yeni sürüm yayımlanmadan önce sonuçların dosya hash'i ve tarama tarihiyle belgelenmesi.
 

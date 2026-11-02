@@ -7,11 +7,13 @@
 
 Windows için iki yönlü canlı konuşma asistanı. Türkçe söylediklerini İngilizce seslendirir; İngilizce konuşmaları Türkçeye çevirir ve yanıt önerir. Otopilot açıkken kendi CV ve kurallarına göre İngilizce yanıtı otomatik seslendirir.
 
-**Windows indirmesi güvenlik incelemesi süresince kapalıdır.** · [Sürümler](https://github.com/marwoziel/Canli-Tercuman-Zoom-Discord-WhatsApp-Telegram/releases)
+**Windows indirmesi güvenlik incelemesi süresince kapalıdır.** Sonuçlar: kurulumlar **7/57 ve 6/70**, iç uygulamalar **3/71 ve 3/71**. [Dört dosyanın raporu](docs/GUVENLIK_INCELEMESI.md). · [Sürümler](https://github.com/marwoziel/Canli-Tercuman-Zoom-Discord-WhatsApp-Telegram/releases)
 
-## Kurulum
+## Kurulum kılavuzu — dağıtım yeniden açıldıktan sonra
 
-1. **CanliTercuman-Setup-1.1.1.exe** dosyasını indir ve çalıştır. Python ve gerekli kütüphaneler dahildir; CMD/pip kullanmazsın.
+Bu bölüm gelecekte onaylanan sürüm içindir; mevcut 1.0.0, 1.1.0 ve 1.1.1 EXE sürümleri inceleme nedeniyle dağıtılmıyor.
+
+1. Güvenlik incelemesi tamamlanmış sürümün kurulumunu kullan. Python ve gerekli kütüphaneler dahildir; CMD/pip kullanmazsın.
 2. İlk açılış sihirbazı gerekli cihazları ve VB-Cable'ı kontrol eder. Eksikse **VB-Cable indir ve kurulumu aç** düğmesine bas; Windows yönetici onayını verip üreticinin adımlarını tamamla. Gerekirse yeniden başlat.
 3. **API ve Ses** adımında kendi anahtarlarını ve Voice ID değerini gir, **Doğrula** düğmesine bas. Program üç servise ve seçtiğin sese erişimi sınar; sorunlu alanı belirtir.
 4. **Cihazlar ve Bilgilerin** adımında mikrofon/kulaklığı seç; yerel mikrofon, test tonu ve kendi sesinin örneğini deneyebilirsin. Kendi CV ve kuralların isteğe bağlıdır.

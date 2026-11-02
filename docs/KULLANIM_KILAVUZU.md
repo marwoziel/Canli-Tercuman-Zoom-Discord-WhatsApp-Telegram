@@ -1,5 +1,8 @@
 # Kullanım kılavuzu
 
+> **Dağıtım askıda:** Bu kılavuz mevcut işaretlenen EXE’leri çalıştırma önerisi değildir. Onaylanmış yeni sürüm yayımlanana kadar kurulum indirmeleri kapalıdır. [Güvenlik raporu](GUVENLIK_INCELEMESI.md).
+
+
 ## 1. Gereksinimler
 
 Windows 10/11, 64 bit işlemci, internet, mikrofon ve tercihen kulaklık gerekir. Yükleyici Python'u ayrıca kurmanı istemez. Deepgram, Groq ve ElevenLabs hesapları sana aittir. Hesapların API erişimi ve kullanım kotası bulunmalıdır.

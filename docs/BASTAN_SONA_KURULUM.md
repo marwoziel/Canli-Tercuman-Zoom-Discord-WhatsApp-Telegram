@@ -1,5 +1,8 @@
 # Baştan sona kurulum: sanal mikrofon dahil
 
+> **Dağıtım askıda:** Bu kılavuz mevcut işaretlenen EXE’leri çalıştırma önerisi değildir. Onaylanmış yeni sürüm yayımlanana kadar kurulum indirmeleri kapalıdır. [Güvenlik raporu](GUVENLIK_INCELEMESI.md).
+
+
 ## 1 — Canlı Tercüman'ı kur
 
 GitHub Releases bölümünden **CanliTercuman-Setup-1.1.1.exe** indir ve çalıştır. Windows 10/11 x64 içindir. Python veya terminal gerektirmez. Başlat menüsü ve masaüstü kısayolu oluşur.
