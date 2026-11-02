@@ -49,3 +49,10 @@ Kesin neden henüz belirlenmedi. İmzasız, ZIP yükü taşıyan özel .NET kuru
 - Yeni sürüm yayımlanmadan önce sonuçların dosya hash'i ve tarama tarihiyle belgelenmesi.
 
 Orijinal dosyaları içeren üretici inceleme paketi ve İngilizce açıklama yerelde hazırlandı. Henüz bir üreticiye gönderildiği veya onay alındığı iddia edilmiyor. Antivirüs kapatma, istisna ekleme veya uyarıları aşma önerilmiyor.
+
+## 1.1.2 izole güvenlik test adayı
+
+Sürücü bütünlük kontrollerini içeren ayrı test adayı derlendi. Derlenmiş açılış/sihirbaz kontrolü, kişisel veri taraması ve yerel Defender özel taraması geçti. Henüz VirusTotal sonucu veya üretici onayı yok; GitHub dağıtımı açılmadı. Günlük kurulum ve kullanıcı ayarları değiştirilmedi.
+
+- 05_Kurulum_1.1.2_TEST.exe — SHA256: `fd53d506bd4990862e7b91da347e13ed7cf79439e3140d120615fd6d1c4cbd0e`. Çok motorlu tarama bekleniyor.
+- 06_Uygulama_1.1.2_TEST.exe — SHA256: `b30c21bc991d30bba61dd193a9fc743a2c4ee28be52a9928e78bbeee50f53d62`. Çok motorlu tarama bekleniyor.
