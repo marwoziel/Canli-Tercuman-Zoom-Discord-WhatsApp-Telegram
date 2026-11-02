@@ -48,5 +48,43 @@
       "SecureAge": "Malicious",
       "Skyhigh (SWG)": "BehavesLike.Win64.Backdoor.vc"
     }
+  },
+  {
+    "version": "1.1.2",
+    "kind": "installer",
+    "file": "05_Kurulum_1.1.2_TEST.exe",
+    "sha256": "fd53d506bd4990862e7b91da347e13ed7cf79439e3140d120615fd6d1c4cbd0e",
+    "flagged": 6,
+    "engines": 69,
+    "detections": {
+      "Arctic Wolf": "Unsafe",
+      "Bkav Pro": "W32.Malware.229E1704",
+      "McAfee Scanner": "Ti!FD53D506BD49",
+      "Microsoft": "Trojan:Win32/Wacatac.C!ml",
+      "SecureAge": "Malicious",
+      "Trapmine": "Malicious.high.ml.score"
+    },
+    "report": "https://www.virustotal.com/gui/file/fd53d506bd4990862e7b91da347e13ed7cf79439e3140d120615fd6d1c4cbd0e",
+    "evidence": "User-provided screenshot, 2026-11-02; full behavior report unavailable",
+    "approved_for_release": false
+  },
+  {
+    "version": "1.1.2",
+    "kind": "application",
+    "file": "06_Uygulama_1.1.2_TEST.exe",
+    "sha256": "b30c21bc991d30bba61dd193a9fc743a2c4ee28be52a9928e78bbeee50f53d62",
+    "flagged": 6,
+    "engines": 71,
+    "detections": {
+      "Arctic Wolf": "Unsafe",
+      "DeepInstinct": "MALICIOUS",
+      "McAfee Scanner": "Ti!B30C21BC991D",
+      "SecureAge": "Malicious",
+      "SentinelOne (Static ML)": "Static AI - Suspicious PE",
+      "Skyhigh (SWG)": "BehavesLike.Win64.Backdoor.wc"
+    },
+    "report": "https://www.virustotal.com/gui/file/b30c21bc991d30bba61dd193a9fc743a2c4ee28be52a9928e78bbeee50f53d62",
+    "evidence": "User-provided screenshot, 2026-11-02; full behavior report unavailable",
+    "approved_for_release": false
   }
 ]

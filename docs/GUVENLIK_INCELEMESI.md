@@ -50,9 +50,13 @@ Kesin neden henüz belirlenmedi. İmzasız, ZIP yükü taşıyan özel .NET kuru
 
 Orijinal dosyaları içeren üretici inceleme paketi ve İngilizce açıklama yerelde hazırlandı. Henüz bir üreticiye gönderildiği veya onay alındığı iddia edilmiyor. Antivirüs kapatma, istisna ekleme veya uyarıları aşma önerilmiyor.
 
-## 1.1.2 izole güvenlik test adayı
+## 1.1.2 sonucu — güvenlik onayı verilmedi
 
-Sürücü bütünlük kontrollerini içeren ayrı test adayı derlendi. Derlenmiş açılış/sihirbaz kontrolü, kişisel veri taraması ve yerel Defender özel taraması geçti. Henüz VirusTotal sonucu veya üretici onayı yok; GitHub dağıtımı açılmadı. Günlük kurulum ve kullanıcı ayarları değiştirilmedi.
+2 Kasım 2026 tarihinde kullanıcı tarafından paylaşılan ekranlarda kurucu **6/69**, iç uygulama **6/71** tespit aldı. Önceki yerel Defender sonucuna rağmen bu aday da güvenli sürüm olarak kabul edilmedi; dağıtıma açılmadı.
 
-- 05_Kurulum_1.1.2_TEST.exe — SHA256: `fd53d506bd4990862e7b91da347e13ed7cf79439e3140d120615fd6d1c4cbd0e`. Çok motorlu tarama bekleniyor.
-- 06_Uygulama_1.1.2_TEST.exe — SHA256: `b30c21bc991d30bba61dd193a9fc743a2c4ee28be52a9928e78bbeee50f53d62`. Çok motorlu tarama bekleniyor.
+- 05_Kurulum_1.1.2_TEST.exe: [6/69 raporu](https://www.virustotal.com/gui/file/fd53d506bd4990862e7b91da347e13ed7cf79439e3140d120615fd6d1c4cbd0e). SHA256: `fd53d506bd4990862e7b91da347e13ed7cf79439e3140d120615fd6d1c4cbd0e`.
+- 06_Uygulama_1.1.2_TEST.exe: [6/71 raporu](https://www.virustotal.com/gui/file/b30c21bc991d30bba61dd193a9fc743a2c4ee28be52a9928e78bbeee50f53d62). SHA256: `b30c21bc991d30bba61dd193a9fc743a2c4ee28be52a9928e78bbeee50f53d62`.
+
+1.1.1 ile 1.1.2 arşivlerinin karşılaştırılması, modül sayısının 548'den 755'e çıktığını gösterdi. Derleme araçlarının güncellenmesiyle setuptools/distutils ve bağlı modüller 1.1.2 çalışma paketine de dahil edilmiş. Önceki “derleme araçları dağıtılan EXE içinde yok” bulgusu yalnızca incelenmiş 1.1.0/1.1.1 için geçerlidir; 1.1.2 için geçerli değildir. Bu değişikliğin antivirüs tespitlerine neden olduğu kanıtlanmış değildir.
+
+Sürücü hash kontrolü bütünlük iyileştirmesidir; mevcut antivirüs tespitlerini çözmüş sayılmaz. Yeni dosyalar üretip tespit sayısını değiştirmeye çalışmak yerine, orijinal dosya hash'leri ve üreticilerin değerlendirmeleri üzerinden inceleme sürdürülmelidir. Hiçbir üreticiye gönderim veya onay henüz doğrulanmadı.

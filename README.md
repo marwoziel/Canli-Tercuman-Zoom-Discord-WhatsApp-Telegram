@@ -1,5 +1,8 @@
 # Canlı Tercüman — Zoom, Discord, WhatsApp, Telegram
 
+> **2 Kasım güncellemesi:** 1.1.2 test adayı da kurulumda **6/69**, iç uygulamada **6/71** tespit aldı. Güvenli sürüm olarak onaylanmadı; indirmeler kapalı.
+
+
 > **İNDİRMELER ASKIYA ALINDI — 1 Kasım 2026:** 1.1.0 kurulum dosyasında Microsoft dahil birden fazla antivirüs motorunun uyarısı bildirildi. Neden henüz doğrulanmadı; güvenlik incelemesi tamamlanana kadar tüm kurulum sürümleri yayından kaldırıldı. Daha önce indirdiğin EXE’yi çalıştırma; antivirüsü kapatma veya istisna ekleme. İşlev testleri güvenlik doğrulaması değildir. [İnceleme ve açık kalan kontroller](docs/GUVENLIK_INCELEMESI.md).
 
 
